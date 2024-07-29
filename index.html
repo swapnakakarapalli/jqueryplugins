@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap code\css\bootstrap.min.css">
+    <script type="module" src="bootstrap code\js\bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.2/css/dataTables.dataTables.css" />
+    
+</head>
+
+<body>
+    <section>
+        <h1 class="p-5">watch <span class="text-primary" id="movies">1000</span>+ movies for free <span
+                class="text-primary" id="hours">24</span> hours</h1>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="7.png" alt="">
+            </div>
+        </div>
+
+        <div id="countdown"></div>
+
+        <section class="container">
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>SNO</th>
+                        <th>NAME OF THE FACULTY</th>
+                        <th>QUALIFICATION</th>
+                        <th>DESIGNATION</th>
+                        <th>JNTUH ID</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Dr MANOJ KUMAR MERUGUMALLA</td>
+                        <td>PhD</td>
+                        <td>Professor</td>
+                        <td>2364-231018-133151</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Dr VIVEK DUBEY</td>
+                        <td>PhD</td>
+                        <td>Professor</td>
+                        <td>7506-150413-143553</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Dr VELMURUGAN PATTANI</td>
+                        <td>PhD</td>
+                        <td>Professor</td>
+                        <td>8585-180130-140303</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Dr SASANKO SEKHAR GANTAYAT</td>
+                        <td>PhD</td>
+                        <td>Professor</td>
+                        <td>1272-221215-152357</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Dr MAHESH NATTHUJI LOKHANDE</td>
+                        <td>PhD</td>
+                        <td>Professor</td>
+                        <td>8000-220307-154232</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MANOHAR SHARANAPPA GOSUL</td>
+                        <td>Mtech</td>
+                        <td>Associate Professor</td>
+                        <td>5308-161104-093655</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>PRUDHVI MUNISEKHAR</td>
+                        <td>Mtech</td>
+                        <td>Associate Professor</td>
+                        <td>3302-180703-141447</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Dr KARPAGA SELVI SUBRAMANIAN</td>
+                        <td>PhD</td>
+                        <td>Associate Professor</td>
+                        <td>6853-220427-151816</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>MUNI DHANALAKSHMI KUMBAKONAM</td>
+                        <td>Mtech</td>
+                        <td>Associate Professor</td>
+                        <td>7280-190111-141821</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Dr SURIYA BEGUM</td>
+                        <td>Mtech</td>
+                        <td>Associate Professor</td>
+                        <td>7875-201223-234607</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Mubeena begum</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1453-150408-153205</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>BANDARUPALLI RAMYASREE</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6521-150419-130838</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>SHASHANKA DEVARAM</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6717-160224-114705</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>DHABBETI CHAITANYA SAI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6043-160303-135703</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>SHIVAKUMAR VANAM</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>3597-160313-101354</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>PRATIBHA KATIKIREDDY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7894-161128-112612</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>MUSHAM THIRUMALESH</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6296-170126-054600</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>MANDULA ASHOK</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5354-170911-192703</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>SURENDRA KALAGARA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6826-180712-143457</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>DHARMARAJ BALAMAHALAKSHMI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>3319-190120-112343</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>DELSHI HOWSALYA DEVI MANIKANDAN</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6937-190221-150359</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>CHANDINI PODALADA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0890-190505-142752</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td>SWAPNA PAULINA YEDDANAPALLI RANI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9620-190828-014552</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>LOTHUKUNTA SWETHA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9851-200229-115140</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>NAVEENVARMA SRIPOTHULA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>8216-200313-124021</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>CHAKRABORTY GANGOTRI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5074-201107-155731</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>SHAZIA ANJUM MOHAMED SIBGATHULLA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>2649-201109-112053</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>JINCY DENNY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5374-201127-153715</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>RAVULA ANITHA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1605-210330-143619</td>
+                    </tr>
+                    <tr>
+                        <td>30</td>
+                        <td>MANGESH TULSHIRAM MATKE</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1916-210702-094641</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td>AMBEDKAR PULIGUJJU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5251-210705-162224</td>
+                    </tr>
+                    <tr>
+                        <td>32</td>
+                        <td>SRABANI PATIKAR</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7077-211116-214453</td>
+                    </tr>
+                    <tr>
+                        <td>33</td>
+                        <td>EDEN THEOPHILUS</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>8790-211202-143655</td>
+                    </tr>
+                    <tr>
+                        <td>34</td>
+                        <td>FALAKNAAZ FALAKNAAZ</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9017-220512-124522</td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td>Dr SHARWAN RAM</td>
+                        <td>Mtech</td>
+                        <td>Associate Professor</td>
+                        <td>7206-220702-113251</td>
+                    </tr>
+                    <tr>
+                        <td>36</td>
+                        <td>MECHINENI SRI SINDHU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0151-220704-170000</td>
+                    </tr>
+                    <tr>
+                        <td>37</td>
+                        <td>ANUSHA MALLA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6805-220712-133507</td>
+                    </tr>
+                    <tr>
+                        <td>38</td>
+                        <td>GADDAMIDI RAGHAVENDER</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6573-230209-113658</td>
+                    </tr>
+                    <tr>
+                        <td>39</td>
+                        <td>USHA MUDDANA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5657-230414-123043</td>
+                    </tr>
+                    <tr>
+                        <td>40</td>
+                        <td>SHARAN KUMAR KOTAKONDA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>8214-230418-095832</td>
+                    </tr>
+                    <tr>
+                        <td>41</td>
+                        <td>BEGUM REHANA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0744-230418-121906</td>
+                    </tr>
+                    <tr>
+                        <td>42</td>
+                        <td>Dr SRINIVASAN JAGANATHAN PRASATH</td>
+                        <td>PhD</td>
+                        <td>Associate Professor</td>
+                        <td>7084-231014-122058</td>
+                    </tr>
+                    <tr>
+                        <td>43</td>
+                        <td>PORUMAMILLA CHANDRA KALAVATHI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7072-240209-110501</td>
+                    </tr>
+                    <tr>
+                        <td>44</td>
+                        <td>KOLA MURTHY SRINIVASA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0206-240218-110915</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td>SUMALATHA SANGAREDDY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6412-240218-151209</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td>NIKHILKUMAR KAMBALAPALLY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5910-240219-115737</td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td>STANLY BABU POTURAJU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1947-240219-150528</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td>LAKSHMI PRASANNA PARUPALLY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5423-240219-154151</td>
+                    </tr>
+                    <tr>
+                        <td>49</td>
+                        <td>BHAVANI ARAGONDA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>4536-240220-124803</td>
+                    </tr>
+                    <tr>
+                        <td>50</td>
+                        <td>ARUNA GADE</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0670-240220-130310</td>
+                    </tr>
+                    <tr>
+                        <td>51</td>
+                        <td>SWATHI ANIREDDY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9372-240221-125943</td>
+                    </tr>
+                    <tr>
+                        <td>52</td>
+                        <td>SYEDA NUSRATH FATIMA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>2924-150418-164931</td>
+                    </tr>
+                    <tr>
+                        <td>53</td>
+                        <td>GOLLA VIJAYA BHASKAR</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9673-240222-124241</td>
+                    </tr>
+                    <tr>
+                        <td>54</td>
+                        <td>VEMURI LASKHMI CHAITANYA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>4881-240222-122947</td>
+                    </tr>
+                    <tr>
+                        <td>55</td>
+                        <td>THOGARU SAI KUMAR</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1217-160217-103602</td>
+                    </tr>
+                    <tr>
+                        <td>56</td>
+                        <td>PINJARI SHABANA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>8924-240224-105303</td>
+                    </tr>
+                    <tr>
+                        <td>57</td>
+                        <td>KASAPOGU RAJU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>5863-240224-120830</td>
+                    </tr>
+                    <tr>
+                        <td>58</td>
+                        <td>RAJA VULLOJI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>4478-240217-142107</td>
+                    </tr>
+                    <tr>
+                        <td>59</td>
+                        <td>KARUVA NALLA REDDY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9652-240224-115206</td>
+                    </tr>
+                    <tr>
+                        <td>60</td>
+                        <td>VANI BOMMAKANTI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1702-150501-125636</td>
+                    </tr>
+                    <tr>
+                        <td>61</td>
+                        <td>SRIHARI BADUGU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>1518-160318-181049</td>
+                    </tr>
+                    <tr>
+                        <td>62</td>
+                        <td>MAMATHA NUKALA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6351-220707-124823</td>
+                    </tr>
+                    <tr>
+                        <td>63</td>
+                        <td>CHINTHAKUNTA PREETHI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6600-220709-111419</td>
+                    </tr>
+                    <tr>
+                        <td>64</td>
+                        <td>SUMALATHA KOTAKONDA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9344-220709-120709</td>
+                    </tr>
+                    <tr>
+                        <td>65</td>
+                        <td>CHAKRAVARTHI SRISYAMSUNDAR GUNTURU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>9146-230419-102012</td>
+                    </tr>
+                    <tr>
+                        <td>66</td>
+                        <td>SREEKANTH THULLIBILLI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7313-161223-144629</td>
+                    </tr>
+                    <tr>
+                        <td>67</td>
+                        <td>DANAMMA SANDHYA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0234-160219-112459</td>
+                    </tr>
+                    <tr>
+                        <td>68</td>
+                        <td>DURSHANAPALLI MOUNIKA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>4182-170109-105118</td>
+                    </tr>
+                    <tr>
+                        <td>69</td>
+                        <td>SUPRAJA GOLI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7468-220708-145851</td>
+                    </tr>
+                    <tr>
+                        <td>70</td>
+                        <td>RAJKUMAR MUSHAM</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7074-240220-120107</td>
+                    </tr>
+                    <tr>
+                        <td>71</td>
+                        <td>Sivani Sisodia</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0064-240312-155248</td>
+                    </tr>
+                    <tr>
+                        <td>72</td>
+                        <td>VEMPATI SUDHESHNA</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>0518-190109-141629</td>
+                    </tr>
+                    <tr>
+                        <td>73</td>
+                        <td>ANN THABITHA THOMASPAPPY</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>8742-190506-124804</td>
+                    </tr>
+                    <tr>
+                        <td>74</td>
+                        <td>ETHIRAJ GOMATHI RAJ</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>7807-220715-125154</td>
+                    </tr>
+                    <tr>
+                        <td>75</td>
+                        <td>RAJ ARVIND RAI</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6935-220715-150607</td>
+                    </tr>
+                    <tr>
+                        <td>76</td>
+                        <td>SHANMUGAM PARTHIBAN</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>6035-230420-114120</td>
+                    </tr>
+                    <tr>
+                        <td>77</td>
+                        <td>SESHA SAI PRASANNA RUSUMU</td>
+                        <td>Mtech</td>
+                        <td>Assistant Professor</td>
+                        <td>2838-230624-111449</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="countMe\countMe.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="dist\jquery.countdown360.min.js"></script>
+        <script src="https://cdn.datatables.net/2.1.2/js/dataTables.js"></script>
+
+        <script>
+            $(document).ready(() => {
+                $("#movies").countMe(0, 10);            //(deyal, speed)
+                $("#hours").countMe(0, 400);
+                $('#myTable').DataTable();
+
+                // calling owl carousel
+                $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 0,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 4
+                        }
+                    }
+                });
+
+                //Timer
+                var countdown = $("#countdown").countdown360({
+                    radius: 100,
+                    strokeStyle: "rgb(231, 91, 10)",
+                    strokeWidth: undefined,
+                    fillStyle: " rgb(244, 217, 96)",
+                    fontColor: "#000000",
+                    fontFamily: "sans-serif",
+                    fontSize: undefined,
+                    fontWeight: 700,
+                    autostart: true,
+                    seconds: 60,
+                    label: ["second", "seconds"],
+                    startOverAfterAdding: true,
+                    smooth: false,
+                    onComplete: function () { }
+                });
+            });
+
+        </script>
+    </section>
+</body>
+
+</html>
